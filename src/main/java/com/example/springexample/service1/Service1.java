@@ -1,7 +1,6 @@
-package com.example.springexample;
+package com.example.springexample.service1;
 
-import com.example.springexample.factory.AppContextProviderFactory;
-import com.example.springexample.factory.ProviderFactory;
+import com.example.springexample.service1.factory.ProviderFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
