@@ -1,4 +1,4 @@
-package com.example.springexample.service1;
+package com.example.springexample;
 
 public interface InfoProvider {
     public String getInfoFromProvider();

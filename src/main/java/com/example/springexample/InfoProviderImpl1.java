@@ -1,6 +1,4 @@
-package com.example.springexample.service1;
-
-import org.springframework.stereotype.Component;
+package com.example.springexample;
 
 //@Component
 public class InfoProviderImpl1 implements InfoProvider {

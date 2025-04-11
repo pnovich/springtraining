@@ -1,8 +1,8 @@
 package com.example.springexample.service1.factory;
 
-import com.example.springexample.service1.InfoProvider;
-import com.example.springexample.service1.InfoProviderImpl1;
-import com.example.springexample.service1.InfoProviderImpl2;
+import com.example.springexample.InfoProvider;
+import com.example.springexample.InfoProviderImpl1;
+import com.example.springexample.InfoProviderImpl2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Component;

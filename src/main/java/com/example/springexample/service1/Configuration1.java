@@ -1,5 +1,7 @@
 package com.example.springexample.service1;
 
+import com.example.springexample.InfoProviderImpl1;
+import com.example.springexample.InfoProviderImpl2;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
