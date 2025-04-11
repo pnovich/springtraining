@@ -2,7 +2,7 @@ package com.example.springexample.service1;
 
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class InfoProviderImpl2 implements InfoProvider {
     @Override
     public String getInfoFromProvider() {
