@@ -1,5 +1,6 @@
 package com.example.springexample.service3;
 
+import jakarta.annotation.PostConstruct;
 import org.springframework.context.annotation.Scope;
 import org.springframework.context.annotation.ScopedProxyMode;
 import org.springframework.stereotype.Component;
@@ -12,7 +13,12 @@ import org.springframework.web.context.annotation.SessionScope;
 //@SessionScope
 @Scope(value = WebApplicationContext.SCOPE_SESSION, proxyMode = ScopedProxyMode.TARGET_CLASS)
 public class Service3 {
-    int counter = 0;
+    @PostConstruct
+    private void init() {
+        System.out.println("initial counter = " + counter);
+    }
+    @InjectRandomInt(min = 3, max = 7)
+    private int counter;
     public void incrementCount() {
         counter++;
     }

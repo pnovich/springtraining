@@ -13,4 +13,9 @@ public class Configuration3 {
 //    Service3 service3() {
 //        return new Service3();
 //    }
+
+//    @Bean
+//    InjectRandomIntAnnotationBeanPostProcessor intAnnotationBeanPostProcessor() {
+//        return new InjectRandomIntAnnotationBeanPostProcessor();
+//    }
 }
